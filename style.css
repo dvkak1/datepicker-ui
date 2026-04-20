@@ -33,10 +33,11 @@
     cursor: pointer;
 }
 
-.calender {
+.calendar {
     position: absolute;
     top: 45px;
     border: 1px solid #ccc;
+    border-radius: 4px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 250px;
@@ -61,3 +62,37 @@
 .calendar-body {
     padding: 10px;
 }
+
+.day-names {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.day-names span {
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.days span {
+     width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.days span:hover {
+    background-color: #eee;
+    border-radius: 50%;
+}
+
