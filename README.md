@@ -14,6 +14,7 @@ Practice CSS Grid for calendar layouts
 Improve component structuring and hierarchy
 Apply consistent spacing and alignment
 Use pseudo-elements and positioning where appropriate
+
 🧱 Features
 Input field with calendar trigger icon
 Calendar header with month and navigation buttons
@@ -21,6 +22,7 @@ Weekday labels (Sun–Sat)
 Calendar grid layout (7-column structure)
 Styled date cells
 Visual separation of UI sections
+
 🛠️ Built With
 HTML5 (semantic structure)
 CSS3 (Flexbox, Grid, positioning)
@@ -31,6 +33,7 @@ CSS3 (Flexbox, Grid, positioning)
     ├── calendar.svg
     ├── chevron-left.svg
     └── chevron-right.svg
+    
 🚀 Getting Started
 Clone the repository
 git clone https://github.com/your-username/datepicker-ui.git
@@ -38,11 +41,13 @@ Open the project folder
 cd datepicker-ui
 Run the project
 Open index.html in your browser.
+
 📚 What I Learned
 Structuring UI components for scalability
 Using CSS Grid for 2D layouts
 Handling alignment in dense UI components
 Designing reusable layout patterns
+
 🧩 Future Improvements
 Add JavaScript for date selection functionality
 Implement month navigation logic
